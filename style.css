@@ -47,12 +47,18 @@ h6{
     justify-content: center;
 }
  
-.navbar{
-  background-color: #383838;
+.navbar {
+  background-color: 383838;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
+  list-style: none; 
+}
+
+
+.navbar li {
+  list-style: none;
 }
  
 .navbar .logo{
@@ -160,7 +166,6 @@ h6{
   border-radius: 0px;
   width: 20%;
 }
-
 
 
 
